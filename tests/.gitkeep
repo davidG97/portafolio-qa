@@ -1,0 +1,5 @@
+﻿# Carpeta para tests unitarios y E2E.
+
+Estructura:
+- tests/unit/  Tests unitarios con Vitest + React Testing Library
+- tests/e2e/  Tests E2E con Playwright o Cypress
