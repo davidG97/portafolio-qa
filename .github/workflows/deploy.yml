@@ -5,6 +5,14 @@ on:
   # Se ejecuta en pushes a la rama main
   push:
     branches: ['main']
+    paths:
+        - 'src/**'
+        - 'public/**'
+        - 'package.json'
+        - 'vite.config.ts'
+        - 'tailwind.config.js'
+        - 'postcss.config.js'
+        - 'index.html'
 
   # Permite ejecutar manualmente desde la pestaña Actions
   workflow_dispatch:
